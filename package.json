@@ -10,15 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "csg": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.25.1",
     "three": "^0.150.1",
-    "three-csg-ts": "^3.1.12",
-    "three-mesh-bvh": "^0.5.23",
-    "three-stlexporter": "^1.0.0"
+    "three-csg-ts": "^3.1.12"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
