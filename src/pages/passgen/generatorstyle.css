@@ -6,6 +6,8 @@
 
 .pageContainer {
     background-color: rgb(170, 170, 255); /* Set your desired background color */
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
     min-height: 100vh; /* Ensure it covers the full viewport height */
     display: flex;
     justify-content: center;
@@ -26,9 +28,11 @@
 
 #headerTextGen{
     font-size: 30px;
+    margin-bottom: 1rem;
 }
 
-.button {
+
+.buttonGen {
     background-color: #4CAF50; /* Green */
     border-radius: 8px;
     border: none;
@@ -55,7 +59,7 @@
     margin-left: 10px;
 }
 
-.button:hover {
+.buttonGen:hover {
     background-color: #2b912d;
 }
 

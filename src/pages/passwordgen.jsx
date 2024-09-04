@@ -63,7 +63,7 @@ const PasswordGenerator = () => {
             onChange={(e) => setLength(e.target.value)}
           />
           <button
-            className="button"
+            className="buttonGen"
             id="generateButton"
             onClick={generatePassword}
           >
@@ -80,7 +80,11 @@ const PasswordGenerator = () => {
             value={password}
             readOnly
           />
-          <button className="button" id="copyButton" onClick={copyToClipboard}>
+          <button
+            className="buttonGen"
+            id="copyButton"
+            onClick={copyToClipboard}
+          >
             Copy
           </button>
           <br />
