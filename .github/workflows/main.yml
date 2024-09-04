@@ -1,0 +1,28 @@
+name: Deploy to DigitalOcean Droplet
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'dist/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH into DigitalOcean Droplet
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.DIGITALOCEAN_DROPLET_IP }}
+          username: ${{ secrets.DIGITALOCEAN_DROPLET_USERNAME }}
+          password: ${{ secrets.DIGITALOCEAN_DROPLET_PASSWORD }}
+          script: |
+            cd /var/www
+            rm -r portfolio-website
+            git clone https://github.com/colemaring/portfolio-website.git
+            cd portfolio-website
+            mv dist ..
+            cd ..
+            rm -r html
+            mv dist html
