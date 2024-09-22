@@ -8,6 +8,8 @@ import voronpic from "../assets/voron/DSC07276.jpg";
 import sandboxpic from "../assets/sandboxpic.png";
 import roverpic from "../assets/roverpic.jpg";
 import go1pic from "../assets/go1pic.png";
+import txtdumppic from "../assets/txtdumppic.png";
+import simrig from "../assets/simrig/simrigbanner.png";
 
 function ProjectShowcase() {
   return (
@@ -24,6 +26,12 @@ function ProjectShowcase() {
         title="RE-RASSOR rover"
         description="Research and Education – Regolith Advanced Surface Systems Operational Robot."
         link="https://github.com/colemaring/RE-RASSOR-lightweight"
+      />
+      <ProjectCard
+        image={txtdumppic}
+        title="Pastebin Clone"
+        description="Securely store and share text snippets."
+        link="https://github.com/colemaring/MERN-txtdump"
       />
       <ProjectCard
         image={musicpic}
@@ -50,12 +58,6 @@ function ProjectShowcase() {
         link="https://github.com/colemaring/go1-project"
       />
       <ProjectCard
-        image={voronpic}
-        title="Voron 0.2"
-        description="DIY 3D printer."
-        page="voron"
-      />
-      <ProjectCard
         image={apppic}
         title="Conversation Starter Generator"
         description="Generate location relevant conversation starters from anywhere."
@@ -66,6 +68,18 @@ function ProjectShowcase() {
         title="Password Generator"
         description="Generate passwords given your choice of stength and security."
         page="passwordgen"
+      />
+      <ProjectCard
+        image={voronpic}
+        title="Voron 0.2"
+        description="DIY 3D printer."
+        page="voron"
+      />
+      <ProjectCard
+        image={simrig}
+        title="Racing Simulator"
+        description="Custom designed and fabricated aluminum extrusion racing simulator."
+        page="simrig"
       />
     </div>
   );
