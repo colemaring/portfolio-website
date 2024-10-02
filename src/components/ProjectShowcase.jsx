@@ -10,6 +10,7 @@ import roverpic from "../assets/roverpic.jpg";
 import go1pic from "../assets/go1pic.png";
 import txtdumppic from "../assets/txtdumppic.png";
 import simrig from "../assets/simrig/simrigbanner.png";
+import freedomfinancespic from "../assets/freedomfinancespic.png";
 
 function ProjectShowcase() {
   return (
@@ -29,14 +30,20 @@ function ProjectShowcase() {
       />
       <ProjectCard
         image={txtdumppic}
-        title="Pastebin Clone"
+        title="Code Sharing and Storage Website"
         description="Securely store and share text snippets."
         link="https://github.com/colemaring/MERN-txtdump"
       />
       <ProjectCard
+        image={freedomfinancespic}
+        title="Debt Management Platform"
+        description="Connect your bank and get personalized suggestions based on your transactions and libailities history."
+        link="https://devpost.com/software/freedom-finances"
+      />
+      <ProjectCard
         image={musicpic}
         title="Musical Scale Trainer"
-        description="Practice your scales for any instrument. (Hackathon project)"
+        description="Practice your scales for any instrument. (KnightHacks 3rd place overall winner)"
         link="https://devpost.com/software/scale-sense"
       />
       <ProjectCard
@@ -59,7 +66,7 @@ function ProjectShowcase() {
       />
       <ProjectCard
         image={apppic}
-        title="Conversation Starter Generator"
+        title="Conversation Starter Generator Mobile App"
         description="Generate location relevant conversation starters from anywhere."
         link="https://github.com/colemaring/ConvoAI"
       />
