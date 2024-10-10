@@ -38,7 +38,7 @@ function ProjectShowcase() {
         image={freedomfinancespic}
         title="Debt Management Platform"
         description="Connect your bank and get personalized suggestions based on your transactions and libailities history."
-        link="https://devpost.com/software/freedom-finances"
+        link="https://github.com/colemaring/Freedom-Finanaces"
       />
       <ProjectCard
         image={musicpic}
