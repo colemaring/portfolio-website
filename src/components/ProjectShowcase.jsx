@@ -11,6 +11,7 @@ import go1pic from "../assets/go1pic.png";
 import txtdumppic from "../assets/txtdumppic.png";
 import simrig from "../assets/simrig/simrigbanner.png";
 import freedomfinancespic from "../assets/freedomfinancespic.png";
+import go1gif from "../assets/go1.gif";
 
 function ProjectShowcase() {
   return (
@@ -18,13 +19,13 @@ function ProjectShowcase() {
       <ProjectCard
         image={videocrop}
         id="video"
-        title="Motion Simulator Software & Platform"
+        title="Motion Simulator Software & Platform - in development"
         description="Control your 2DOF Arduino motion simulator and view its corresponding telemetry."
         link="https://github.com/colemaring/Motion-Master"
       />
       <ProjectCard
         image={roverpic}
-        title="RE-RASSOR rover"
+        title="RE-RASSOR rover - in development"
         description="Research and Education – Regolith Advanced Surface Systems Operational Robot."
         link="https://github.com/colemaring/RE-RASSOR-lightweight"
       />
@@ -61,8 +62,15 @@ function ProjectShowcase() {
       <ProjectCard
         image={go1pic}
         title="Hand Gesture Controlled Robot Dog"
-        description="Controlling a Unitree Go1 using hand gestures using Google's MediaPipe engine."
+        description="Controlling a Unitree Go1 using hand gestures with Google's MediaPipe engine."
         link="https://github.com/colemaring/go1-project"
+      />
+      <ProjectCard
+        image={go1gif}
+        id="video"
+        title="Robot Dog Synchronization - in development"
+        description="Choreographing and synchronizing multiple robot dogs using WebSockets and NTP."
+        link="https://github.com/chinmaynehate/rob-sync"
       />
       <ProjectCard
         image={apppic}
