@@ -20,7 +20,7 @@ function ProjectShowcase() {
         image={videocrop}
         id="video"
         title="Motion Simulator Software & Platform"
-        description="Control your 2DOF Arduino motion simulator and view its corresponding telemetry."
+        description="Control your 6DOF Arduino motion simulator and view its corresponding telemetry."
         link="https://github.com/colemaring/Motion-Master"
       />
       <ProjectCard
