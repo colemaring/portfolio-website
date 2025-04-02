@@ -25,9 +25,15 @@ function ProjectShowcase() {
       />
       <ProjectCard
         image={roverpic}
-        title="RE-RASSOR rover - in development"
+        title="RE-RASSOR rover"
         description="Research and Education – Regolith Advanced Surface Systems Operational Robot."
         link="https://github.com/colemaring/RE-RASSOR-lightweight"
+      />
+      <ProjectCard
+        image={sandboxpic}
+        title="Minecraft Sandbox Terrain Visualizer"
+        description="A real-time Minecraft terrain visualizer for augmented reality sandboxes using Xbox Kinect."
+        link="https://github.com/colemaring/MC-AR-Sandbox"
       />
       <ProjectCard
         image={txtdumppic}
@@ -53,12 +59,7 @@ function ProjectShowcase() {
         description="Create custom text stencils in a 3D environment with real-time rendering."
         page="stencil"
       />
-      <ProjectCard
-        image={sandboxpic}
-        title="Minecraft Sandbox Terrain Visualizer"
-        description="A real-time Minecraft terrain visualizer for augmented reality sandboxes using Xbox Kinect."
-        link="https://github.com/colemaring/MC-AR-Sandbox"
-      />
+
       <ProjectCard
         image={go1pic}
         title="Hand Gesture Controlled Robot Dog"
@@ -68,9 +69,9 @@ function ProjectShowcase() {
       <ProjectCard
         image={go1gif}
         id="video"
-        title="Robot Dog Synchronization - in development"
+        title="Robot Dog Synchronization"
         description="Choreographing and synchronizing multiple robot dogs using WebSockets and NTP."
-        link="https://github.com/chinmaynehate/rob-sync"
+        link="https://github.com/chinmaynehate/rob-sync/tree/local-ws"
       />
       <ProjectCard
         image={apppic}

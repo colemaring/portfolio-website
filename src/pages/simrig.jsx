@@ -6,6 +6,10 @@ import pic4 from "../assets/simrig/20240922_161329-min.jpg";
 import pic5 from "../assets/simrig/20240922_161341-min.jpg";
 import pic6 from "../assets/simrig/20240922_161429-min.jpg";
 import pic7 from "../assets/simrig/20240922_161448-min.jpg";
+import pic8 from "../assets/simrig/20250323_191658-min.jpg";
+import pic9 from "../assets/simrig/20250323_191703-min.jpg";
+import pic10 from "../assets/simrig/20250323_191710-min.jpg";
+import pic11 from "../assets/simrig/Screenshot 2025-04-02 094819-min.png";
 
 function Simrig() {
   return (
@@ -42,6 +46,26 @@ function Simrig() {
       />
       <img
         src={pic2} // Use the imported image
+        alt="Description of image 1"
+        style={{ width: "400px", height: "auto" }} // Set the width and height
+      />
+      <img
+        src={pic8} // Use the imported image
+        alt="Description of image 1"
+        style={{ width: "400px", height: "auto" }} // Set the width and height
+      />
+      <img
+        src={pic9} // Use the imported image
+        alt="Description of image 1"
+        style={{ width: "400px", height: "auto" }} // Set the width and height
+      />
+      <img
+        src={pic10} // Use the imported image
+        alt="Description of image 1"
+        style={{ width: "400px", height: "auto" }} // Set the width and height
+      />
+      <img
+        src={pic11} // Use the imported image
         alt="Description of image 1"
         style={{ width: "400px", height: "auto" }} // Set the width and height
       />

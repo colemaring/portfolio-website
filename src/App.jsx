@@ -13,7 +13,7 @@ function App() {
       </div>
       <ProjectShowcase />
       <div id="footer" className="lightSans">
-        Up to date, January 2025
+        Up to date, April 2025
       </div>
     </div>
   );
